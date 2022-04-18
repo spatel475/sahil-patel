@@ -1,1 +1,52 @@
-/* You can add global styles to this file, and also import other style files */
+html,
+body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.mat-sidenav-container {
+	display: flex;
+	flex: 1 1 auto;
+}
+
+.mat-nav-list .mat-list-item {
+	font-size: 15px;
+}
+
+.mat-sidenav,
+.mat-sidenav-content {
+	padding: 15px;
+}
+
+.mat-list-item.active {
+	background: rgba(0, 0, 0, 0.04);
+}
+
+.mat-sidenav-content {
+	padding: 25px 40px 0;
+}
+
+.mat-sidenav {
+	width: 250px;
+}
+
+mat-sidenav mat-icon {
+	margin-right: 12px;
+}
+
+table.mat-table,
+table {
+	width: 100%;
+}
+
+.title-group {
+	margin-bottom: 25px;
+}
+
+.mat-tooltip.tooltip {
+	font-size: 1rem;
+}
